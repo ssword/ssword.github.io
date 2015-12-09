@@ -63,11 +63,10 @@ The following examples were taken from [this article](http://www.hypexr.org/linu
   $ scp -c blowfish foo.txt USERNAME@remotehost.edu:/directory/path
   ```
   
-Sometimes, if the connect is extremely low, we may try the -C option for file compression to boost speed. 
+* Sometimes, if the connect is extremely low, we may try the -C option for file compression to boost speed.
 
   ```shell
-  $ ...scp -c blowfish -C foo.txt USERNAME@remotehost.edu:/directory/path
-  ``` 
-
+  $ scp -c blowfish -C foo.txt USERNAME@remotehost.edu:/directory/path
+  ```
   
 
