@@ -2,7 +2,7 @@
 layout: post
 title: "Example syntax for scp"
 modified:
-categories: Linux
+categories: articles
 excerpt:
 tags: [linux, scp, ssh]
 image:
