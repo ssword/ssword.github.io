@@ -2,7 +2,7 @@
 
 title: MiTh
 locale: en_US
-description: Describe your website here.
+description: A journal for all my miserable thoughts on Tech and life...
 logo: site-logo.png
 search: true
 url: http://ssword.github.io
@@ -50,7 +50,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics:UA-16769978-3
     verify:
     ad-client:
     ad-slot:
