@@ -39,7 +39,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: ssword
-  avatar: bio-photo.jpg
+  avatar: avatar.png
   email: ssword@gmail.com
   disqus-shortname: sswordme
   twitter: sswordme
