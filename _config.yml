@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: Site Title
+title: MiTh
 locale: en_US
 description: Describe your website here.
 logo: site-logo.png
@@ -19,6 +19,7 @@ gems:
   - jekyll-sitemap
 
 kramdown:
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
@@ -33,13 +34,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: ssword
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: ssword@gmail.com
   disqus-shortname:
-  twitter: #username
+  twitter: #sswordme
   facebook: #username
-  github: #username
+  github: #ssword
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
