@@ -66,8 +66,8 @@ The following examples were taken from [this article](http://www.hypexr.org/linu
 Sometimes, if the connect is extremely low, we may try the -C option for file compression to boost speed. 
 
   ```shell
-  # some comments here
-  $ scp -c blowfish -C foo.txt USERNAME@remotehost.edu:/directory/path
+  # ...some comments here
+  $ ...scp -c blowfish -C foo.txt USERNAME@remotehost.edu:/directory/path
   ``` 
 
   
