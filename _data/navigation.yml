@@ -9,8 +9,8 @@
 - title: Tags
   url: /tags/
 
-- title: Feed
-  url: /deed.xml
+- title: <i class="fa fa-rss-square fa-2x">
+  url: /feed.xml
 
 - title: Search
   url: /search/

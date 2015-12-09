@@ -2,12 +2,16 @@
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
       {% for link in site.data.navigation %}
+	  	{% if link.title contains 'Feed'%}
+		  <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}><i class="fa fa-rss-square fa-2x"></i></a></li>
+		  {% else %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
 		        {% else %}
 		        {% assign domain = site.url %}
 		    {% endif %}
 		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+		{% endif %}
 		  {% endfor %}
 	    </ul>
 	</nav>
