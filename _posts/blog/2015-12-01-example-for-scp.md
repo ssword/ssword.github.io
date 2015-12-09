@@ -4,7 +4,6 @@ title: "Example syntax for scp"
 modified:
 categories: Linux
 excerpt:
-share: true
 tags: [linux, scp, ssh]
 image:
   feature:
@@ -12,7 +11,7 @@ image:
 
 The following examples were taken from [this article](http://www.hypexr.org/linux_scp_help.php), just for my future reference.
 
-##Examples:
+## Examples:
 
 * Copy remote file to local folder:
 
@@ -56,14 +55,14 @@ The following examples were taken from [this article](http://www.hypexr.org/linu
   $ scp USERNAME@remotehost.edu:~/\{foo.txt,bar.txt\} .
   ```
   
-##Preformance Boost
-Using the Blowfish cipher may increase the speed of transsion.
+## Preformance Boost
+* Using the Blowfish cipher may increase the speed of transsion.      
 
-  ```Shell
+  ```shell
   $ scp -c blowfish foo.txt USERNAME@remotehost.edu:/directory/path
   ```
   
-Sometimes, if the connect is extremely low, we may try the -C option for file compression to boost speed. 
+* Sometimes, if the connect is extremely low, we may try the -C option for file compression to boost speed. 
 
   ```shell
   $ scp -c blowfish -C foo.txt USERNAME@remotehost.edu:/directory/path

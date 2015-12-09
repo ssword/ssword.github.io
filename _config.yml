@@ -26,6 +26,7 @@ kramdown:
   toc_levels: 1..2
   enable_coderay: false
 
+
 mathjax: true
 
 # add Disqus Comments for every page
@@ -41,9 +42,9 @@ owner:
   avatar: bio-photo.jpg
   email: ssword@gmail.com
   disqus-shortname: sswordme
-  twitter: #sswordme
+  twitter: sswordme
   facebook: #username
-  github: #ssword
+  github: ssword
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
