@@ -5,9 +5,12 @@
 
 - title: Blog
   url: /blog/
+  
+- title: Tags
+  url: /tags/
 
 - title: Feed
-  url: http://mademistakes.com
+  url: /deed.xml
 
 - title: Search
   url: /search/
