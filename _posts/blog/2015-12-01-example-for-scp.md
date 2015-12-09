@@ -4,6 +4,7 @@ title: "Example syntax for scp"
 modified:
 categories: Linux
 excerpt:
+share: true
 tags: [linux, scp, ssh]
 image:
   feature:
@@ -33,25 +34,25 @@ The following examples were taken from [this article](http://www.hypexr.org/linu
   
 * Copy local file to remote host using port 2046
 
-  ```Shell
+  ```shell
   $ scp -p 2046 foo.txt USERNAME@remotehost.edu:/file/path
   ```
 
 * Copy local directory to remote host
 
-  ```Shell
+  ```shell
   $ scp -r /local/directory USERNAME@remotehost.edu:/directory/path
   ```
   
 * Copy mutiple files to remote host
 
-  ```Shell
+  ```shell
   $ scp foo.txt bar.txt USERNAME@remotehost.edu:/directory/path
   ```
   
 * Copy  multiple files from the remote host to local
 
-  ```Shell
+  ```shell
   $ scp USERNAME@remotehost.edu:~/\{foo.txt,bar.txt\} .
   ```
   
@@ -64,7 +65,7 @@ Using the Blowfish cipher may increase the speed of transsion.
   
 Sometimes, if the connect is extremely low, we may try the -C option for file compression to boost speed. 
 
-  ```Shell
+  ```shell
   $ scp -c blowfish -C foo.txt USERNAME@remotehost.edu:/directory/path
   ``` 
 
