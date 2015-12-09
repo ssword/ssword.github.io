@@ -4,6 +4,7 @@ title: "Example syntax for scp"
 modified:
 categories: articles
 excerpt:
+author: ssword
 tags: [linux, scp, ssh]
 image:
   feature:
