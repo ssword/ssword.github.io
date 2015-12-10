@@ -17,6 +17,7 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - pygments
 
 kramdown:
   input: GFM
