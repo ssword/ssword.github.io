@@ -11,15 +11,15 @@ Most of the contents here are taken fromt he R base package documents.
 
 **lapply** returns a list of the same length as X, each element of which is the result of applying FUN to the corresponding element of X.
 
-**sapply** is a user-friendly version and wrapper of lapply by default returning a vector, matrix or, if simplify = "array", an array if appropriate, by applying simplify2array(). sapply(x, f, simplify = FALSE, USE.NAMES = FALSE) is the same as lapply(x, f).  
+**sapply** is a user-friendly version and wrapper of **lapply** by default returning a vector, matrix or, if simplify = "array", an array if appropriate, by applying simplify2array(). sapply(x, f, simplify = FALSE, USE.NAMES = FALSE) is the same as lapply(x, f).  
 **sapply** always return the results in a vectro if possible.  
 "**s**" in **sapply** stands for "simplify". It will simplify the answer into a vector or a matrix. So if the return is a structured object, you can use lapply()
 
-vapply is similar to sapply, but has a pre-specified type of return value, so it can be safer (and sometimes faster) to use.
+**vapply** is similar to sapply, but has a pre-specified type of return value, so it can be safer (and sometimes faster) to use.
 
-replicate is a wrapper for the common use of sapply for repeated evaluation of an expression (which will usually involve random number generation).
+**replicate** is a wrapper for the common use of **sapply** for repeated evaluation of an expression (which will usually involve random number generation).
 
-simplify2array() is the utility called from sapply() when simplify is not false and is similarly called from mapply().
+**simplify2array()** is the utility called from sapply() when simplify is not false and is similarly called from mapply().
 
 ### Usage
 ```R
@@ -36,9 +36,9 @@ simplify2array() is the utility called from sapply() when simplify is not false 
 
 ### details
 
-Simplification in sapply is only attempted if X has length greater than zero and if the return values from all elements of X are all of the same (positive) length. If the common length is one the result is a vector, and if greater than one is a matrix with a column corresponding to each element of X.
+Simplification in **sapply** is only attempted if X has length greater than zero and if the return values from all elements of X are all of the same (positive) length. If the common length is one the result is a vector, and if greater than one is a matrix with a column corresponding to each element of X.
 
-Simplification is always done in vapply. This function checks that all values of FUN are compatible with the FUN.VALUE, in that they must have the same length and type. (Types may be promoted to a higher type within the ordering logical < integer < double < complex, but not demoted.)
+Simplification is always done in **vapply**. This function checks that all values of FUN are compatible with the FUN.VALUE, in that they must have the same length and type. (Types may be promoted to a higher type within the ordering logical < integer < double < complex, but not demoted.)
 
 ### value
 
