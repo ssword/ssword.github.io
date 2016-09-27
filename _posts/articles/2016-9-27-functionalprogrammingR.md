@@ -5,7 +5,7 @@ title: Some notes on functional programming with R
 
 Most of the contents here are taken fromt he R base package documents.
 
-## **lapply**
+## **lapply {base}**
 
 ### Description
 
@@ -81,3 +81,10 @@ vapply returns a vector or array of type matching the FUN.VALUE. If length(FUN.V
     bar(5, x = 3)
 ```
 
+You can also check [this](http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega) stackoverflow page for more explanations:
+>* **lapply** is a list apply which acts on a list or vector and returns a list.
+> * **sapply** is a simple lapply (function defaults to returning a vector or matrix when possible)
+> * **vapply** is a verified apply (allows the return object type to be prespecified)
+> * **rapply** is a recursive apply for nested lists, i.e. lists within lists
+> * **tapply** is a tagged apply where the tags identify the subsets
+> * **apply** is generic: applies a function to a matrix's rows or columns
