@@ -82,7 +82,8 @@ vapply returns a vector or array of type matching the FUN.VALUE. If length(FUN.V
 ```
 
 You can also check [this](http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega) stackoverflow page for more explanations:
->* **lapply** is a list apply which acts on a list or vector and returns a list.
+
+> * **lapply** is a list apply which acts on a list or vector and returns a list.
 > * **sapply** is a simple lapply (function defaults to returning a vector or matrix when possible)
 > * **vapply** is a verified apply (allows the return object type to be prespecified)
 > * **rapply** is a recursive apply for nested lists, i.e. lists within lists
