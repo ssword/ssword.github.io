@@ -1,13 +1,3 @@
----
-layout: post
-ttile: "Bag of words with R"
-modified:
-categories: articles
-excerpt:
-author: ssword
-tags: [r, tm, textmining, qdap, RColorBrewer]
----
-
 # Some tip on bag of words process
 
 Most of the contents here are taking from the package documentation repectively. 
