@@ -91,3 +91,21 @@ Files ending in .gz, .bz2, .xz, or .zip will be automatically uncompressed. File
     )
 ```
 
+## **read_excel {readxl}**
+
+### Usage:
+
+```R
+read_excel(path, sheet = 1, col_names = TRUE, col_types = NULL, na = "",
+  skip = 0)
+```
+
+## **Load Data from other software datafiles**
+
+* read_sas {haven}
+* read_dta {haven}
+* read_sav {haven}
+* read.dta {foreign}
+* read.spss {foreign}
+* fromJSON {jsonlite}
+* toJSON {jsonlite}
