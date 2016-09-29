@@ -1,4 +1,6 @@
-Some notes on data importing with R
+---
+layout: post
+title: Some notes on data importing with R
 ---
 
 Most of the contents here are taken fromt he R base package documents.

@@ -1,4 +1,6 @@
- Some notes on functional programming with R
+---
+layout: post
+title: Some notes on functional programming with R
 ---
 
 Most of the contents here are taken fromt he R base package documents.

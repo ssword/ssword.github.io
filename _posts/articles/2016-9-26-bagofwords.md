@@ -1,6 +1,7 @@
-Some notes on bag of words processing with R
-===============================================
-===============================================
+---
+layout: post
+title: Some notes on bag of words processing with R
+---
 
 
 Most of the contents here are taking from the package documentation repectively. 
